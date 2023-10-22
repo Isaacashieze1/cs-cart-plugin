@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<addon scheme='4.0'>
+    <id>seerbit</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <name>SeerBit Payment</name>
+    <description>Accept Payment via SeerBit. Pay with Card, Bank Account, Transfer, Ussd, Mobile Money</description>
+    <supplier>SeerBit</supplier>
+    <priority>100</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+
+    <functions>
+        <item for="install">fn_seerbit_install</item>
+        <item for="uninstall">fn_seerbit_uninstall</item>
+    </functions>
+</addon>
